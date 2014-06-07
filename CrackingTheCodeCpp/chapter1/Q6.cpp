@@ -58,19 +58,19 @@ void print(int** matrix, int n) {
 	}
 }
 
-int main(void) {
-
-	int n = 4;
-	int** matrix = createMatrix(n);
-
-	print(matrix, n);
-
-	matrix = rotateMatrixBy90(matrix, n);
-
-	cout << setw(3*n) << setfill('=') << '=' << endl;
-
-	print(matrix, n);
-
-	return 0;
-}
+//int main(void) {
+//
+//	int n = 4;
+//	int** matrix = createMatrix(n);
+//
+//	print(matrix, n);
+//
+//	matrix = rotateMatrixBy90(matrix, n);
+//
+//	cout << setw(3*n) << setfill('=') << '=' << endl;
+//
+//	print(matrix, n);
+//
+//	return 0;
+//}
 

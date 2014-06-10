@@ -25,22 +25,22 @@ bool checkIfRotation(string s1, string s2) {
 	}
 }
 
-int main(void) {
-
-	string s1 = "waterbottle";
-	string s2 = "erbottlewat";
-
-	cout << s1 << " " << s2 << " ";
-	cout << ((checkIfRotation(s1, s2)) ? "true" : "false") << endl;
-
-	string s3 = "snakeoil";
-	string s4 = "liosnake";
-
-	cout << s3 << " " << s4 << " ";
-	cout << ((checkIfRotation(s3, s4)) ? "true" : "false") << endl;
-
-
-
-	return 0;
-}
+//int main(void) {
+//
+//	string s1 = "waterbottle";
+//	string s2 = "erbottlewat";
+//
+//	cout << s1 << " " << s2 << " ";
+//	cout << ((checkIfRotation(s1, s2)) ? "true" : "false") << endl;
+//
+//	string s3 = "snakeoil";
+//	string s4 = "liosnake";
+//
+//	cout << s3 << " " << s4 << " ";
+//	cout << ((checkIfRotation(s3, s4)) ? "true" : "false") << endl;
+//
+//
+//
+//	return 0;
+//}
 

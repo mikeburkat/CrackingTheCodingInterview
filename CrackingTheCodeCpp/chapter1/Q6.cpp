@@ -14,10 +14,12 @@ int** rotateMatrixBy90(int** matrix, int n) {
 
 	int rotated[n][n];
 
+	int newX;
+	int newY;
 	for (int x = 0; x < n; x++) {
 		for (int y = 0; y < n; y++) {
-			int newX = n - x - 1;
-			int newY = n - y - 1;
+			newX = n - x - 1;
+			newY = n - y - 1;
 			rotated[newY][newX] = matrix[x][y];
 		}
 	}
@@ -60,7 +62,9 @@ void print(int** matrix, int n) {
 
 //int main(void) {
 //
-//	int n = 4;
+//	cout << "Enter Size: ";
+//	int n;
+//	cin >> n;
 //	int** matrix = createMatrix(n);
 //
 //	print(matrix, n);

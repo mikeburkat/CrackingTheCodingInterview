@@ -24,25 +24,22 @@ public:
 };
 
 
-int main(void) {
-
-	Q3 q;
-	LinkedListSingle lls;
-	lls.append(1);
-	lls.append(2);
-	lls.append(3);
-	lls.printList();
-
-	q.deleteNode(lls.head->next);
-	lls.printList();
-
-	q.deleteNode(lls.head->next);
-	lls.printList();
-
-
-
-
-
-	return 0;
-}
+//int main(void) {
+//
+//	Q3 q;
+//	LinkedListSingle lls;
+//	lls.append(1);
+//	lls.append(2);
+//	lls.append(3);
+//	lls.printList();
+//
+//	q.deleteNode(lls.head->next);
+//	lls.printList();
+//
+//	q.deleteNode(lls.head->next);
+//	lls.printList();
+//
+//
+//	return 0;
+//}
 #endif

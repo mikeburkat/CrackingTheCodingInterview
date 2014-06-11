@@ -35,29 +35,26 @@ public:
 };
 
 
-int main(void) {
-
-	Q2 q;
-	LinkedListSingle lls;
-	lls.append(1);
-	lls.append(2);
-	lls.append(3);
-	lls.printList();
-	std::cout << 3 << "th Last Element is: " << q.getKthLast(lls, 3) << std::endl;
-	std::cout << 4 << "th Last Element is: " << q.getKthLast(lls, 4) << std::endl;
-	lls.append(4);
-	lls.append(5);
-	lls.append(6);
-	lls.append(7);
-	lls.append(8);
-	lls.append(9);
-	lls.append(10);
-	lls.printList();
-	std::cout << 3 << "th Last Element is: " << q.getKthLast(lls, 3) << std::endl;
-
-
-
-
-	return 0;
-}
+//int main(void) {
+//
+//	Q2 q;
+//	LinkedListSingle lls;
+//	lls.append(1);
+//	lls.append(2);
+//	lls.append(3);
+//	lls.printList();
+//	std::cout << 3 << "th Last Element is: " << q.getKthLast(lls, 3) << std::endl;
+//	std::cout << 4 << "th Last Element is: " << q.getKthLast(lls, 4) << std::endl;
+//	lls.append(4);
+//	lls.append(5);
+//	lls.append(6);
+//	lls.append(7);
+//	lls.append(8);
+//	lls.append(9);
+//	lls.append(10);
+//	lls.printList();
+//	std::cout << 3 << "th Last Element is: " << q.getKthLast(lls, 3) << std::endl;
+//
+//	return 0;
+//}
 #endif
